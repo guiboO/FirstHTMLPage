@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First HTML Project</title>
+</head>
+<body>
+    <h1 id="inicio">Introdução ao HTML e suas TAGS</h1>
+    <hr>
+    <h2>O que foi aprendido nessas primeiras aulas</h2>
+    <ul>
+        <li><a href="#oQue">O que é HTML?</a></li>
+        <li><a href="#oQuePode">O que pode ser feito com o HTML?</a></li>
+        <li><a href="#oQueSaoTags">O que são TAGS?</a></li>
+        <li><a href="#praticas">Melhores práticas</a></li>
+        <li><a href="#referencias">Referências</a></li>
+    </ul>
+    <h2 id="oQue">O que é o HTML?</h2>
+    <p>Criada pelo britânico <u>Tim Berners-Lee</u>, o acrônimo HTML significa <mark>HyperText MarkUp Language</mark>, traduzindo ao português: <strong>Linguagem de Marcação de Hipertexto</strong>.  O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.</p>
+    <p><blockquote><i>"Hipertexto" refere-se aos links que conectam páginas da Web entre si, seja dentro de um único site ou entre sites. Links são um aspecto fundamental da web. Ao carregar conteúdo na Internet e vinculá-lo a páginas criadas por outras pessoas, você se torna um participante ativo na world wide web.</i></blockquote><br>
+    O HTML usa "Marcação" para anotar texto, imagem e outros conteúdos para exibição em um navegador da Web.</p>
+    <p>Ao visitar uma página simples na web, você pode perceber que existem diferentes distribuições e tamanhos para títulos, parágrafos, imagens, vídeos e qualquer outro elemento. Essa estrutura é estabelecida através do HTML. No inicio da web, era comum encontrar sites apenas contendo textos e imagens simples, com estrutura básica e sem estilizações. Porém, nos dias atuais, muito dificilmente você encontrará sites que possuam apenas elementos HTML. Portanto, podemos considerar o HTML o “esqueleto” da sua página</p>
+    <small><a href="#inicio">Voltar ao topo</a></small>
+
+    <h2 id="oQuePode">O que pode ser feito com o HTML?</h2>
+    <p>No HTML você pode fazer como se fosse um Blog e estruturar uma página da Web. Pode também incluir multimídia, como imagens, incorporar vídeos, áudios, links e fazer com que sua página leve até uma outra página. Outras coisas legais que podem ser feitas também são tabelas, formulários e botões, mas isso assunto para mais adiante no curso.</p>
+    <p>Como já dissemos antes, o HTML não é uma linguagem de programação, e sim uma linguagem de marcação. Então, ele está principalmente na parte visual das aplicações, na parte do frontend. Em conjunto com o CSS e o Javascript, formam a base do frontend e das páginas web!</p>
+    <p>Também é possível criar aplicativos mobile usando HTML. É o que chamamos de desenvolvimento híbrido, pois, usando HTML, CSS e Javascript, é possível criar aplicativos tanto para Android como para IOS com um só código.</p>
+    <p>Da mesma forma que o Javascript é usado para o desenvolvimento de aplicativos mobile, ele conjuntamente com algusn frameworks, pode ser usado para desenvolver jogos.</p>
+    <small><a href="#inicio">Voltar ao topo</a></small>
+
+    <h2 id="oQueSaoTags">O que são TAGS?</h2>
+    <p>A tag, que em português significa <strong>etiqueta</strong>, representa a denominação de um elemento. Ela funciona como um rótulo para indicar qual a função daquele conteúdo e deve ser escrita entre os símbolos “<” e “>”, como "h1". As tags podem ser utilizadas sozinhas ou em conjunto com a tag de fechamento, em que há a adição do caractere “/”, como "/h1".</p>
+    <p>A utilização da tag de fechamento varia de acordo com a obrigatoriedade exigida pelo elemento que ela representa. Por exemplo, a tag "form" deve ser utilizada em conjunto com a tag "/form" para indicar onde começa e termina o conteúdo de um formulário. O mesmo vale para muitos outros elementos.</p>
+    <p>TAGS são elementos HTML. Um elemento HTML é separado de outro texto em um documento por "tags", que consistem no nome do elemento entre "<" e ">". O nome de um elemento dentro de uma tag é insensível a maiúsculas e minúsculas.<br>
+    Existem inúmeros tipos de tags e cada uma tem sua definição: <a href="Tags.html">Clique aqui para acessar</a></p>
+    <small><a href="#inicio">Voltar ao topo</a></small>
+
+    <h2 id="praticas">Melhores práticas para usar no HTML.</h2>
+    <p>As melhores práticas de HTML ajudam os desenvolvedores a oferecer sites e aplicativos web inovadores e altamente interativos. Estas melhores práticas ajudam a desenvolver os aplicativos mais ricos em recursos e centradas nos negócios. Além disso, as organizações podem aproveitar estas melhores práticas para proporcionar uma experiência de usuário perfeita.</p>
+    <h4>Colocação de tags HTML</h4>
+    <p>Os desenvolvedores sabem que o objetivo das tags é ajudar os navegadores da web a distinguir entre o conteúdo HTML e o conteúdo comum. As tags HTML contêm uma tag de abertura, conteúdo e tag de fechamento. No entanto, muitas vezes eles estão confusos sobre a colocação correta das tags, os elementos que requerem tags de fechamento, ou quando omitir tags.</p>
+
+    <p>Por exemplo, onde é o melhor lugar para colocar tags <i>script</i>?</p>
+        
+    <p>As tags do script são normalmente colocadas dentro do elemento "head" Mas uma melhor prática HTML moderna é colocá-las no final do documento, antes de fechar a "body", para atrasar seu download. A página web carregará primeiro o Modelo de Objeto do Documento (DOM), mostrá-lo-á ao usuário, e depois solicitará os scripts, reduzindo o tempo para o primeiro byte (TTFB).</p>
+        
+    <p>O navegador interpreta seu documento HTML linha por linha, de cima para baixo. Assim, quando lê a cabeça e se depara com uma etiqueta de script, ele inicia um pedido ao servidor para obter o arquivo. Não há nada de inerentemente errado com este processo, mas se a página estiver carregando um arquivo enorme, isso levará muito tempo e afetará muito a experiência do usuário.</p>
+    <small><a href="#inicio">Voltar ao topo</a></small>
+
+    <h3 id="referencias">Referências:</h3>
+    <ul>
+        <li><a href="https://blog.betrybe.com/html/">BeTrybe</a></li>
+        <li><a href="https://www.w3schools.com/tags/default.asp">W3Schools</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">MDN Web Docs</a></li>
+    </ul>
+
+</body>
+</html>
